@@ -1,0 +1,12 @@
+Launch the web browser.
+Load the necessary web page.
+If the page is loaded, access its DOM and find all the anchor HTML elements. For each of them, obtain the HREF value of each component. This way, we will get all the links on the page.
+If the page didn’t load, remember the web server’s error for the page.
+Remember the processed page.
+If the page belongs to our website, filter the links; remove those that do not interest us, such as links to subsections of the page or mailto:.
+Go through the received links list.
+For each page from the list, follow the steps starting from p. #1.
+If it is an external page, then remember it but do not analyze its links. We are only interested in the links on the pages of our website.
+After we deal with all the discovered pages, we complete our navigation.
+Close the web browser.
+Go through all the analyzed pages and find those having broken links.
