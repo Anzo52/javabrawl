@@ -1,4 +1,4 @@
-Launch the web browser.
+Launch the web browser. (use headless chrome) (https://github.com/dhamaniasad/HeadlessBrowsers.git)
 Load the necessary web page.
 If the page is loaded, access its DOM and find all the anchor HTML elements. For each of them, obtain the HREF value of each component. This way, we will get all the links on the page.
 If the page didn’t load, remember the web server’s error for the page.
