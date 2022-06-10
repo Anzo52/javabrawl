@@ -1,0 +1,3 @@
+[submodule "HeadlessBrowsers"]
+	path = HeadlessBrowsers
+	url = https://github.com/dhamaniasad/HeadlessBrowsers.git
